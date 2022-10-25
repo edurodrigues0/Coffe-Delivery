@@ -5,9 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'background-image': "url('./src/assets/Background.svg')",
+      },
       fontFamily: {
-        'sans': ['Roboto', 'sans-serif'],
-        'header': 'Baloo2'
+        'sans': ["'Roboto'", "sans-serif"],
+        'baloo': ["'Baloo 2'", 'mono']
       },
       colors: {
         yellow: {

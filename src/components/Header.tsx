@@ -8,7 +8,7 @@ export function Header() {
   const [isCoffeInCart, setIsCoffeInCart] = useState(false);
 
   return(
-    <header className="py-8 px-40 flex items-center justify-between">
+    <header className="px-40 py-8 flex items-center justify-between">
       <a href="#" className="outline-none mt-[2px] border-b-2 border-transparent focus:border-b-2 focus:border-purple-normal">
         <Logo />
       </a>
